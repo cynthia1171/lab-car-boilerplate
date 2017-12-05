@@ -103,6 +103,23 @@ nav{
   color: #fff;
 }
 
+/*estilo sección conductor*/
+#conductor{
+  background-image: url(../assets/images/conduce.jpg);
+  background-size: cover;
+  height: 30em;
+}
+
+#txt-conductor{
+  background: rgba(0, 0, 0, 0.4);/*los colores rgba con opacidad no afectan el contenido del div*/
+  color: #fff;
+}
+
+.btn-conductor{
+  background-color: #f7b617;
+  color: #fff;
+}
+
 
 
 /*media queries*/
@@ -141,6 +158,10 @@ nav{
 
   #txt-app-oculto h2{
     display: inline-block;
+  }
+
+  #txt-conductor{
+    height: 100%;
   }
 }
 
