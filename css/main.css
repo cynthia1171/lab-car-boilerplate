@@ -1,3 +1,7 @@
+body{
+  margin-right: 0;
+}
+
 /*esilo de nav*/
 nav{
   padding-top: 1em;
@@ -162,6 +166,94 @@ nav{
   margin: 1em;
 }
 
+/*estilos del footer*/
+footer{
+  background-color: #2b2b2b;
+}
+
+footer #logo{
+  border-bottom: 1px solid #fff;
+  margin-top: 4em;
+}
+
+footer #logo img{
+  padding-bottom: 2em;
+}
+
+footer #div-footer{
+  padding: 3em;
+  line-height: 3;
+}
+
+.icon-facebook:before {
+  content: "\e904";
+  color: #fff;
+}
+
+.icon-twitter:before {
+  content: "\e903";
+  color: #fff;
+}
+
+.icon-linkedin:before {
+  content: "\e902";
+  color: #fff;
+}
+
+.icon-apple:before {
+  content: "\e901";
+  color: #fff;
+}
+
+.icon-play:before {
+  content: "\e900";
+  color: #fff;
+}
+
+#div-footer #rrss{
+  margin-top: 21em;
+}
+
+#rrss span:hover{
+  color: rgb(94, 89, 89);
+  cursor: pointer;
+}
+
+footer #div-footer ul li{
+  list-style: none;
+}
+
+footer #div-footer ul li a{
+  color: #fff;
+}
+
+footer #div-footer ul li a:hover{
+  color: rgb(94, 89, 89);
+  text-decoration: none;
+}
+
+.apps{
+  margin-top: 14em;
+}
+
+.apps img{
+  padding-bottom: 2em;
+  width: 65%;
+}
+
+footer #labcar{
+  border-top: 1px solid #fff;
+  color: #fff;
+}
+
+footer #labcar p{
+  padding-top: 1em;
+  padding-bottom: 4em;
+}
+
+.oculto{
+  display: none;
+}
 
 
 /*media queries*/
@@ -213,6 +305,30 @@ nav{
   .mapa{
     margin-top: 0;
   }
+
+  .via{
+    float: left;
+  }
+
+  #div-footer #rrss{
+    float: right;
+    margin-top: 0;
+  }
+
+  #div-footer .apps{
+    float: right;
+    margin-top: 2em;
+  }
+
+  .opo{
+    display: none;
+  }
+
+  .oculto{
+    display: block;
+    margin-top: 28em;
+  }
+  
 }
 
 
