@@ -71,6 +71,39 @@ nav{
   margin-top: 1em;
 }
 
+/*estilo modal*/
+#perfil{
+  width: 200px;
+  height: 200px;
+  border-radius: 100%;
+}
+
+.info-modal{
+  width: 400px;
+  height: 300px;
+  border: 1px solid #e5e5e5;
+  margin-left: 5em;
+}
+
+.info-modal p{
+  color: #000;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.user{
+  width: 25em;
+  padding-left: 3em;
+  padding-top: 2em;
+}
+
+.inicio{
+  margin-top: 2em;
+  background-color: #f7b617;
+  color: #fff;
+}
+
+
 /*estilos sección info*/
 #info{
   background-color: #f7b617;
