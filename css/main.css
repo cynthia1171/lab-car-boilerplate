@@ -120,6 +120,48 @@ nav{
   color: #fff;
 }
 
+/*estilos sección mapa*/
+#mapa{
+  background-color: #f7b617;
+  color: #fff;
+  height: 40em;
+}
+
+.cont-tarifas{
+  padding: 6em;
+
+}
+
+#buscadores div{
+  margin-top: 2em;
+}
+
+#txt-punto{
+  background-color: transparent;
+  border: 1px solid;
+  border-radius: 8px;
+  height: 3em;
+  width: 20em;
+  padding-left: 1em;
+  margin-left: 2em;
+}
+
+::placeholder { 
+  color: #fff; 
+}
+
+.mapa{
+  border: 1px solid #fff;
+  height: 27em;
+  width: 35em;
+  margin-top: 7em;
+}
+#map{
+  width: 31em;
+  height: 25em;
+  margin: 1em;
+}
+
 
 
 /*media queries*/
@@ -162,6 +204,14 @@ nav{
 
   #txt-conductor{
     height: 100%;
+  }
+
+  #mapa{
+    height: 60em;
+  }
+
+  .mapa{
+    margin-top: 0;
   }
 }
 

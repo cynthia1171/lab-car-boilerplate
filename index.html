@@ -103,6 +103,51 @@
     </div>
   </section>
   <!-- fin sección conductor -->
+
+  <!-- inicio sección mapa -->
+  <section id="mapa">
+    <div class="col-md-6 col-sm-12 col-xs-12">
+      <div class="cont-tarifas container">
+        <h2>Tarifas</h2>
+        <p>Consulta las tarifas LabCar aquí</p>
+        <div id="buscadores">
+          <div class="col-md-12">
+            <img src="assets/images/shape.png" alt="">
+            <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su punto de partida">
+          </div>
+          <div class="col-md-12">
+            <img src="assets/images/shape2.png" alt="">
+            <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su destino">
+          </div>
+          
+        </div>
+      </div>
+    </div>
+    <div class="col-md-6 col-sm-12 col-xs-12">
+      <div class="mapa container">
+        <div id="map"></div>
+      </div>
+    </div>
+  </section>
+  <!-- fin sección mapa -->
+
+
+  <!-- funcion para integrar mapa -->
+  <script>
+    function initMap() {
+      var uluru = { lat: -25.363, lng: 131.044 };
+      var map = new google.maps.Map(document.getElementById('map'), {
+        zoom: 4,
+        center: uluru
+      });
+      var marker = new google.maps.Marker({
+        position: uluru,
+        map: map
+      });
+    }
+  </script>
+  <script async defer src="https://maps.googleapis.com/maps/api/js?key=AIzaSyAkVPJ-XFXnIufbvrRNQ7izn3Ne-COi1Mo&callback=initMap">
+  </script>
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa"
     crossorigin="anonymous"></script>
