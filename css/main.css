@@ -132,6 +132,14 @@ nav{
   padding-top: 1em;
 }
 
+#registro-conductores p{
+  color: #000;
+}
+
+.md-body-cond{
+  height: 35em;
+}
+
 /*estilos sección info*/
 #info{
   background-color: #f7b617;

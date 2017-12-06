@@ -144,6 +144,69 @@
         </div>
         <!-- fin modal registro-->
 
+        <!-- inicio Modal registro de conductores-->
+        <div class="modal fade" id="registro-conductores" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="md-body-cond modal-body">
+                <div class="separacion input-group dropdown col-md-12">
+                  <p>Tienes vehículos de 4 puertas? </p>
+                  <button class="col-md-12 like" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Selecciona...
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li>
+                      ...
+                    </li>
+                  </ul>
+                </div>
+                <div class="separacion input-group dropdown col-md-12">
+                  <p>Marca de tu vehículo </p>
+                  <button class="col-md-12 like" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Selecciona...
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li>
+                      ...
+                    </li>
+                  </ul>
+                  <p>No ves tu vehículo en la lista? Envíanos un correo a hola@labcar.cl</p>
+                </div>
+                <div class="separacion input-group dropdown col-md-12">
+                  <p>Modelo del vehículo </p>
+                  <button class="col-md-12 like" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                     Selecciona...
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li>
+                      ...
+                    </li>
+                  </ul>
+                </div>
+                <div class="separacion input-group dropdown col-md-12">
+                  <p>Año del vehículo </p>
+                  <button class="col-md-12 like" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Selecciona...
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li>
+                      ...
+                    </li>
+                  </ul>
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <input type="text" class="form-control" placeholder="Número de la matrícula" aria-describedby="sizing-addon2">
+                  <p>La información de la matrícula ayuda a los clientes a identificar tú vehículo</p>
+                </div>
+                <button class="separacion btn btn-default btn-enviar center-block col-md-12">ENVIAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin modal registro de conductores-->
         
 
       </div>
@@ -153,7 +216,7 @@
           <span class="col-md-3">ó bien</span>
           <hr id="hr2" class="col-md-3">
         </div>
-        <button class="btn btn-default" type="submit">Conviértete en un conductor</button>
+        <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#registro-conductores">Conviértete en un conductor</button>
       </div>
     </div>
   </section>
