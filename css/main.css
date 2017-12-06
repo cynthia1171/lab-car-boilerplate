@@ -227,6 +227,13 @@ nav{
   margin: 1em;
 }
 
+.btn-trazo{
+  margin-top: -6em;
+  margin-left: 16em;
+  font-weight: bold;
+
+}
+
 /*estilos del footer*/
 footer{
   background-color: #2b2b2b;
