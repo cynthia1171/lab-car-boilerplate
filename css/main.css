@@ -103,6 +103,34 @@ nav{
   color: #fff;
 }
 
+.md-body{
+  height: 31em;
+}
+
+.btn-registro{
+  background-color: #000;
+  color: #fff;
+}
+
+.head p{
+  color: #000;
+  text-align: center;
+  padding-top: 1em;
+}
+
+.like{
+  color: #000;
+}
+
+.btn-enviar{
+  background-color: #f7b617;
+  color: #fff;
+  margin-top: 1em;
+}
+
+.separacion{
+  padding-top: 1em;
+}
 
 /*estilos sección info*/
 #info{

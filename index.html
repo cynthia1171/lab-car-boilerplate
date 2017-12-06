@@ -35,7 +35,7 @@
             <a href="#">Conduce</a>
           </li>
           <li>
-            <a href="#">Inicia Sesión</a>
+            <a data-toggle="modal" data-target="#inicio-sesion" href="#">Inicia Sesión</a>
           </li>
         </ul>
       </div>
@@ -63,8 +63,8 @@
         <h4>Viaja con <img src="assets/images/logoBlanco.png" alt=""></h4>
         <button class="btn btn-default" type="submit" data-toggle="modal" data-target="#registro">REGISTRATE</button>
 
-        <!-- inicio Modal -->
-        <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+        <!-- inicio Modal inicio de sesión -->
+        <div class="modal fade" id="inicio-sesion" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
           <div class="modal-dialog" role="document">
             <div class="modal-content">
               <div class="modal-body">
@@ -89,7 +89,62 @@
             </div>
           </div>
         </div>
-        <!-- fin modal -->
+        <!-- fin modal inicio de sesión -->
+
+        <!-- inicio Modal registro-->
+        <div class="modal fade" id="registro" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
+          <div class="modal-dialog" role="document">
+            <div class="modal-content">
+              <div class="head modal-header">
+                <button class="btn btn-default btn-registro center-block col-md-12" type="submit" data-toggle="modal" data-target="#registro">¿Ya tienes una cuenta?</button>
+                <p class="col-md-12">Ó CREA UNA CUENTA NUEVA</p>
+              </div>
+              <div class="md-body modal-body">
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="Nombre" aria-describedby="sizing-addon2">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="Apellido" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="laboratoria@laboratoria.cl" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="Teléfono" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="Contraseña" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="Ciudad" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group col-md-12">
+                  <span class="input-group-addon" id="sizing-addon2"></span>
+                  <input type="text" class="form-control" placeholder="(Opional) Código de invitación" aria-describedby="sizing-addon2">
+                </div>
+                <div class="separacion input-group dropdown col-md-12">
+                  <button class="col-md-12 like" id="dLabel" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    ¿Cómo te enteraste de nosotros?
+                    <span class="caret"></span>
+                  </button>
+                  <ul class="dropdown-menu" aria-labelledby="dLabel">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Televisión</a></li>
+                    <li><a href="#">Diario</a></li>
+                  </ul>
+                </div>
+                <button class="separacion btn btn-default btn-enviar center-block col-md-12">ENVIAR</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <!-- fin modal registro-->
+
+
       </div>
       <div class="medio">
         <div class="row">
