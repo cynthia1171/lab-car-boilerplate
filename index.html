@@ -259,27 +259,31 @@
 
   <!-- inicio sección mapa -->
   <section id="mapa">
-    <div class="col-md-6 col-sm-12 col-xs-12">
-      <div class="cont-tarifas container">
-        <h2>Tarifas</h2>
-        <p>Consulta las tarifas LabCar aquí</p>
-        <div id="buscadores">
-          <div class="col-md-12">
-            <img src="assets/images/shape.png" alt="">
-            <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su punto de partida">
+    <div class="container">
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="container">
+          <div class="cont-tarifas">
+            <h2>Tarifas</h2>
+            <p>Consulta las tarifas LabCar aquí</p>
+            <div id="buscadores">
+              <div class="col-md-12">
+                <img src="assets/images/shape.png" alt="">
+                <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su punto de partida">
+              </div>
+              <div class="col-md-12">
+                <img src="assets/images/shape2.png" alt="">
+                <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su destino">
+              </div>
+      
+            </div>
           </div>
-          <div class="col-md-12">
-            <img src="assets/images/shape2.png" alt="">
-            <input type="text" name="punto" id="txt-punto" placeholder="Ingrese su destino">
-          </div>
-          
+          <button class="btn-trazo btn btn-default">¡ Traza tu ruta !</button>
         </div>
       </div>
-      <button class="btn-trazo btn btn-default">¡ Traza tu ruta !</button>
-    </div>
-    <div class="col-md-6 col-sm-12 col-xs-12">
-      <div class="mapa container">
-        <div id="map"></div>
+      <div class="col-md-6 col-sm-12 col-xs-12">
+        <div class="mapa container">
+          <div id="map"></div>
+        </div>
       </div>
     </div>
   </section>

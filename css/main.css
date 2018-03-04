@@ -200,11 +200,6 @@ nav{
   height: 40em;
 }
 
-.cont-tarifas{
-  padding: 6em;
-
-}
-
 #buscadores div{
   margin-top: 2em;
 }
@@ -226,18 +221,19 @@ nav{
 .mapa{
   border: 1px solid #fff;
   height: 27em;
-  width: 35em;
+  width: 27em;
   margin-top: 7em;
 }
 #map{
-  width: 31em;
-  height: 25em;
+  width: 23em;
+  height: 24em;
   margin: 1em;
 }
 
 .btn-trazo{
-  margin-top: -6em;
-  margin-left: 16em;
+  margin-top: 2em;
+  margin-left: 6em;
+  margin-bottom: 21px;
   font-weight: bold;
 
 }
